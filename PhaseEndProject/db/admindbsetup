@@ -1,0 +1,3 @@
+use my_db;
+create table Admin(id int auto_increment primary key,email varchar(255),password varchar(20));
+insert into admin values(1,"sai@gmail.com","1234")

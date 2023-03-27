@@ -1,0 +1,7 @@
+use my_db;
+create table Flight(id int primary key,airlines varchar(20),date1 Date,time1 Time,source1 varchar(20),destination varchar(20),ticketprice int);
+insert into Flight values(1,"Air India","2023-03-20","10:00:00","Hyderabad","Chennai",8000);
+insert into Flight values(2,"AirAsia India","2023-03-20","10:00:00","delhi","mumbai",9000);
+insert into Flight values(3,"Go First","2023-03-20","10:00:00","Kolkata","bangalore",8500);
+insert into Flight values(4,"Air India Express","2023-03-20","10:00:00","Bangalore","Chennai",3500);
+insert into Flight values(5,"IndiGo","2023-03-20","10:00:00","Kolkata","Chennai",8400);
