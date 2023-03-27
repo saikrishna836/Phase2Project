@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FlyAway-User Home Page</title>
+</head>
+<body>
+	<center><h1>FlyAway</h1></center>
+	<form action="FlightsServlet" method="post">
+		<table>
+			<tr>
+				<td>Date</td>
+				<td><input type="date" name="date" /></td>
+			</tr>
+			<tr>
+				<td>Source:</td>
+				<td><input type="text" name="source" /></td>
+			</tr>
+			<tr>
+				<td>Destination</td>
+				<td><input type="text" name="destination" /></td>
+			</tr>
+			<tr>
+				<td>Number of People:</td>
+				<td><input type="number" name="persons" /></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Book" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
